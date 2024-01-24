@@ -100,7 +100,7 @@ const page = () => {
             <Breadcrumb items={breadcrumb.map((item) => item.label ?? "")} />
           </div>
 
-          <div className=" flex justify-center items-start gap-8 mt-8 h-full">
+          <div className=" flex flex-col md:flex-row justify-center items-start gap-8 mt-8 h-full">
             {/* Column 1: Images */}
             <div className="flex relative flex-col flex-1">
               {/* Big Image */}
@@ -204,7 +204,7 @@ const page = () => {
           <div className="flex flex-col  items-center w-4/5 gap-12 mt-8">
             <BestSeller />
 
-            <div className="flex w-full justify-between items-center">
+            <div className="flex flex-col md:flex-row w-full justify-between items-center">
               <img src="../images/fa-brands-1.png" alt="brand 1" />
               <img src="../images/fa-brands-2.png" alt="brand 2" />
               <img src="../images/fa-brands-3.png" alt="brand 3" />

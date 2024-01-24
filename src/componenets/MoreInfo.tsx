@@ -20,7 +20,7 @@ const MoreInfo = () => {
         </ul>
       </div>
       {/*  tabs content */}
-      <div className="flex w-full h-full gap-8">
+      <div className="flex flex-col md:flex-row w-full h-full gap-8">
         <div className="flex flex-col gap-6 items-start ">
           <h2 className="font-bold text-2xl text-primary-text">
             The quick fox jumps over
