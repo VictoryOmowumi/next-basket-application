@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 interface Product {
   id: number;
@@ -71,6 +72,8 @@ useEffect(() => {
         <div className="flex flex-col items-center gap-6 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-full ">
             {products.map((product) => (
+              <Link  href={`/products/${product.id}`} >
+              
               <div
                 key={product.id}
                 className="flex flex-col gap-2 justify-center items-center transition-all cursor-pointer"
@@ -95,6 +98,7 @@ useEffect(() => {
                   </span>
                 </p>
               </div>
+              </Link>
             ))}
           </div>
 

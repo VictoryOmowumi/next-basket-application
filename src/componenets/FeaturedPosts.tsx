@@ -9,13 +9,13 @@ const FeaturedPosts = () => {
         {/* Head text */}
         <div className="flex flex-col items-center gap-2">
           <p className="text-xl text-secondary-blue">Practice Advice</p>
-          <h2 className="text-[2.5rem] text-primary-text font-bold">
+          <h2 className="text-[1.5rem] md:text-[2.5rem] text-primary-text font-bold text-center">
             Featured Posts
           </h2>
         </div>
         {/* content */}
         <div className="md:flex-row flex-col justify-center flex gap-4">
-          <div className="flex flex-col w-[30%] bg-white shadow ">
+          <div className="flex flex-col w-full md:w-[30%] bg-white shadow ">
             <div
               className="w-full h-[300px] bg-white flex flex-col gap-[5px] p-6"
               style={{
@@ -65,7 +65,7 @@ const FeaturedPosts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-[30%] bg-white shadow ">
+          <div className="flex flex-col w-full md:w-[30%] bg-white shadow ">
             <div
               className="w-full h-[300px] bg-white flex flex-col gap-[5px] p-6"
               style={{
@@ -115,7 +115,7 @@ const FeaturedPosts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-[30%] bg-white shadow ">
+          <div className="flex flex-col w-full md:w-[30%] bg-white shadow ">
             <div
               className="w-full h-[300px] bg-white flex flex-col gap-[5px] p-6"
               style={{

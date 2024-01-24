@@ -7,7 +7,7 @@ import Testimonials from '@/componenets/Testimonials';
 import Cta from '@/componenets/Cta';
 export default function Home() {
   return (
-    <main className='h-auto flex flex-col gap-10'>
+    <main className=''>
       <Hero />
       <BestSeller />
       <FeaturedProducts />

@@ -5,8 +5,8 @@ import { FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
         return (
-          <div className="w-full h-[60vh] overflow-clip bg-[#fafafa] flex flex-col justify-center items-center">
-            <div className="w-full md:w-4/5 h-1/4 flex justify-between items-center ">
+          <div className="w-full h-auto md:h-[60vh] overflow-clip bg-[#fafafa] flex flex-col justify-center items-center">
+            <div className="w-full md:w-4/5 h-auto md:h-1/4 flex flex-col md:flex-row justify-between items-center py-4 gap-4">
               <h2 className="font-bold text-2xl">Bandage</h2>
               <div className="flex text-secondary-blue gap-6">
                 <FaFacebook className="w-6 h-6" />
@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="h-1/2 w-full bg-white flex justify-center items-center py-10">
+            <div className="h-auto md:h-1/2 w-full bg-white flex justify-center items-center py-10">
               <div className="w-4/5 h-full flex flex-col justify-between md:flex-row gap-4">
                 <div className="flex flex-col gap-5">
                   <p className="text-base font-bold text-primary-text">
@@ -114,7 +114,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="h-1/4 w-full flex items-center justify-center">
+            <div className="h-auto md:h-1/4 w-full flex items-center justify-center">
               <p className="text-sm font-bold text-[#737373] w-4/5">
                 Made With Love By Victory All Right Reserved
               </p>

@@ -18,7 +18,7 @@ const Cta = () => {
         <h2 className="text-[2.5rem] text-primary-text font-bold w-full md:w-1/2 text-center">
           Problems trying to resolve the conflict between
         </h2>
-        <p className='text-sm text-[#737373] w-full md:w-1/3 text-center'>
+        <p className='text-sm text-[#737373] w-full px-5 md:w-1/3 text-center'>
           Problems trying to resolve the conflict between the two major realms
           of Classical physics:{" "}
         </p>
